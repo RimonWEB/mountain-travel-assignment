@@ -29,9 +29,11 @@
 .nav li{
     list-style: none;
     padding: 15px;
+    
 }
 .nav li a{
     text-decoration: none;
+    color:#424247;
 }
 span{
     color: orange;
@@ -44,7 +46,6 @@ span{
     height: 100vh;
     padding: 10px;
     margin-left: 50px;
-   
     text-align: center;
     color: white;
     
@@ -114,11 +115,128 @@ span{
 .popular .btn{
     padding: 10px 22px;
     margin-top: 10px;
-    background-color: red;
+    background: #FF5400;
     border: none;
     border-radius: 8px;
 
 }
+.destination{
+    border: 1px solid rgb(11, 11, 10);
+}
+.destination1{
+    text-align: center;
+}
+.destination1 h2{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+}
+.destination1 p{
+    margin-bottom: 12px;
+    padding: 30px;
+}
+
+
+
+.picture {
+    display: flex;
+    margin-left: 50px;
+    gap: 16px;
+    position: relative;
+}
+.img1 p{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 20%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+.img2 p{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 20%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+.img2 img{
+    width: 550px;
+    height: 300px;
+}
+
+.picture1{
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.img3 p{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 12%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+.img4 p{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 13%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+.img4 img{
+    width: 460px;
+    height: 288px;
+}
+.img5 p{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 8%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+.picture2{
+    display: flex;
+    gap: 16px;
+    margin-left: 50px;
+}
+.img7 img{
+    width: 655px;
+    height: 300px;
+}
+.img6 p{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 14%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+.img7 p{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 21%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+
+
+
+
 .choose{
     margin-left: 70px;
     margin-top: 50px;
@@ -172,14 +290,14 @@ span{
     width: 573px;
     height: 284px;
     margin-top: 50px;
-    margin-left: 315px;
+    margin-left: 290px;
     margin-right: 400px;
     
 
 }
 .best1{
     padding: 20px;
-   margin-top: 10%;
+    margin-top: 10%;
    
 }
 .footer{
@@ -233,6 +351,80 @@ span{
     color: #131318;
     font-size: 14px;
 }
+.newsletter{
+    display: flex;
+    justify-content: center;
+    border: 1px solid greenyellow;
+    margin-left: 70px;
+   
+}
+.newsletter h2{
+    font-size: 40px;
+}
+.newsletter1{
+    margin-top: 90px;
+    border: 1px solid red;
+    width: 620px;
+    height: 400px;
+    
+   
+}
+.newsletter2{
+    margin-top: 50px;
+    padding: 30px;
+}
+.newsletter2 p{
+    color: #5A5A5D;
+    margin-top: 10px;
+}
+.newsletter2 input{
+    margin-top: 14px;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsletter2 button{
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-top: 12px;
+}
+.rectangle{
+    background-image: url(images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 66vh;
+    margin-top: 90px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+.rectangle .travel{
+    width: 220px;
+    height: 85px;
+    background-color: #FF5400;
+    border-radius: 16px;
+    margin-top: 35%;
+    margin-left: 60%;
+    position: absolute;
+    text-align: center;
+    
+}
+.travel1{
+    margin-top: 20px;
+}
+.travel1 h5{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
 
 
 
