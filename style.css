@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .nav{
     width: 100%;
     display: flex;
@@ -14,10 +15,12 @@
     background-position: left;
     background-repeat: no-repeat;
     padding-left: 80px;
+
 }
 .images h2{
     margin-top: 50px;
 }
+
 .nav ul {
     display: flex;
     align-items: center;
@@ -54,7 +57,7 @@ span{
     font-size: 50px;
 }
 
-.parent2{
+.parent3{
     width: 700px;
     height: 60px;
     margin-left: 250px;
@@ -83,9 +86,8 @@ span{
     
 }
 .main{
-    border: 1px solid red;
     display: flex;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 .popular{
@@ -117,7 +119,120 @@ span{
     border-radius: 8px;
 
 }
+.choose{
+    margin-left: 70px;
+    margin-top: 50px;
+    border: 1px solid red;
+}
+.choose .choose1{
+    text-align: center;
+}
+.choose1 h2{
+    padding: 10px;
+    font-size: 40px;
+    color: #131318;
+}
+.choose p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+}
+.hotel{
+    display: flex;
+    margin-top: 100px;
+}
+.hotel1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.hotel2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.service{
+    padding: 20px;
+    margin-top: 50px;
+}
+.service h2{
+    font-size: 24px;
+}
+.best-prise{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    margin-top: 50px;
+    margin-left: 315px;
+    margin-right: 400px;
+    
 
+}
+.best1{
+    padding: 20px;
+   margin-top: 10%;
+   
+}
+.footer{
+    width: 100%;
+    height: 420px;
+    border: 1px solid red;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 80px;
+}
+.footer .images3 h2{
+    background-image: url(images/Group\ 40071\ \(2\).png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    margin-left: 40%;
+    margin-top: 130px;
+}
+.images3 p{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: #5A5A5D;
+}
+.images3 .icon{
+    margin-left: 48%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 90px;
+    height: 90px;
+   
+}
+
+.icon a{
+    padding: 10px;
+    
+}
+.horizentalline1{
+    width: 60%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    background-color: rgb(43, 41, 41);
+}
+.mail p{
+    padding: -10px;
+    text-align: center;
+    color: #131318;
+    font-size: 14px;
+}
 
 
 
@@ -133,9 +248,25 @@ span{
 
 /* Mobile media queary */
 @media screen and (max-width:576px) {
-    /* .parent {
+    .nav{
+        flex-direction: column;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    .navbar {
+       margin-right: 50px;
+    }
+    .navber ul{
+        padding-top: 20px;
+        flex-direction: column;
+        padding-left: -20px;
+    }
+    .images h2 {
+        margin-top: 0px;
+    }
+    .parent {
         background-position: center;
-    } */
+    }
     .parent1{
         margin-top: 80px;
     }
@@ -155,19 +286,17 @@ span{
     }
     .pic img{
         width: 100%;
-        height: 80vh;
+        height: 70vh;
         margin-left: 0px;
         background-position: center;
     }
-    /* .parent2 {
-        width: 150px;
-        height: 250px;
-        margin-left: 100px;
+    
+    .parent2{
         flex-direction: column;
-        padding: 10px;
-        padding-right: 60px;
-        padding-top: 15px;
-        display: inline-flex;
     }
-    */
+  
 }
+
+
+
+
