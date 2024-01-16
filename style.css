@@ -18,7 +18,8 @@
 
 }
 .images h2{
-    margin-top: 50px;
+    margin-top: 42px;
+    font-size: 36px;
 }
 
 .nav ul {
@@ -40,10 +41,10 @@ span{
 }
 
 .parent {
-    background-image: url(images/image.png);
+    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(images/image.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     padding: 10px;
     margin-left: 50px;
     text-align: center;
@@ -56,6 +57,11 @@ span{
 }
 .parent1 h2{
     font-size: 50px;
+}
+.parent p{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 300px;
 }
 
 .parent3{
@@ -120,9 +126,7 @@ span{
     border-radius: 8px;
 
 }
-.destination{
-    border: 1px solid rgb(11, 11, 10);
-}
+
 .destination1{
     text-align: center;
 }
@@ -240,7 +244,6 @@ span{
 .choose{
     margin-left: 70px;
     margin-top: 50px;
-    border: 1px solid red;
 }
 .choose .choose1{
     text-align: center;
@@ -264,22 +267,37 @@ span{
     background: rgba(251, 181, 99, 0.05);
     width: 573px;
     height: 284px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hotel1 h2{
+    margin-top: 10px;
 }
 .hotel2{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
+    width: 603px;
     height: 284px;
-    margin-left: 70px;
+    /* /* margin-left: 70px; */
     margin-right: 70px;
 }
 .service{
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 55px;
 }
+.service img{
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+    
+}
+.best1 img{
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+}
+
 .service h2{
     font-size: 24px;
 }
@@ -290,7 +308,7 @@ span{
     width: 573px;
     height: 284px;
     margin-top: 50px;
-    margin-left: 290px;
+    margin-left: 270px;
     margin-right: 400px;
     
 
@@ -302,10 +320,15 @@ span{
 }
 .footer{
     width: 100%;
-    height: 420px;
+    height: 360px;
     border: 1px solid red;
-    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    background-color: #e5e5ee;
     margin-top: 80px;
+
+}
+.images3{
+    padding-top: 2px;
 }
 .footer .images3 h2{
     background-image: url(images/Group\ 40071\ \(2\).png);
@@ -313,8 +336,9 @@ span{
     background-repeat: no-repeat;
     padding-left: 80px;
     margin-left: 40%;
-    margin-top: 130px;
+    margin-top: 100px;
 }
+
 .images3 p{
     text-align: center;
     font-size: 14px;
@@ -354,7 +378,6 @@ span{
 .newsletter{
     display: flex;
     justify-content: center;
-    border: 1px solid greenyellow;
     margin-left: 70px;
    
 }
@@ -363,7 +386,7 @@ span{
 }
 .newsletter1{
     margin-top: 90px;
-    border: 1px solid red;
+    border: 1px solid #FF5400;
     width: 620px;
     height: 400px;
     
@@ -391,7 +414,10 @@ span{
     border-radius: 8px;
     background: #FF5400;
     border: none;
+    color: white;
     margin-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .rectangle{
     background-image: url(images/Rectangle\ 8\ \(1\).png);
@@ -414,6 +440,7 @@ span{
     margin-left: 60%;
     position: absolute;
     text-align: center;
+    color: white;
     
 }
 .travel1{
@@ -424,7 +451,48 @@ span{
     font-weight: 700;
     
 }
-
+.place{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+    margin-left: 120px;
+    /* margin-right: 50px; */
+}
+.place1{
+    margin-top: 80px;
+    width: 500px;
+}
+.place h2{
+    font-size: 40px;
+    font-weight: 800px;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+.place1 p{
+    font-size: 14px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.place1 button{
+    padding: 10px 22px;
+    margin-top: 10px;
+    background: #FF5400;
+    border: none;
+    border-radius: 8px;
+}
+.hill{
+    background-image: url(images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.hill p{
+    text-align: center;
+    margin-top: 24%;
+    margin-right: 100px;
+    font-size: 28px;
+    color: white;
+}
 
 
 
@@ -458,6 +526,7 @@ span{
     }
     .parent {
         background-position: center;
+        
     }
     .parent1{
         margin-top: 80px;
@@ -465,6 +534,17 @@ span{
     .parent1 h2{
         font-size: 32px;
         padding: 4px;
+    }
+    .parent3 {
+        width: 150px;
+        height: 250px;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .parent3 input{
+        margin-left: -5px;
+        margin-top: -5px;
     }
 
 
@@ -486,6 +566,119 @@ span{
     .parent2{
         flex-direction: column;
     }
+    
+    .destination1{
+        width: 420px;
+        margin-left: 10px;
+        margin-top: -40px;
+    }
+    
+    .picture{
+        flex-direction: column;
+        width: 300px;
+    }
+    .img7 img,
+    .img6 img,
+    .img5 img,
+    .img4 img,
+    .img3 img,
+    .img2 img,
+    .img1 img{
+        width: 360px;
+        height: 250px;
+    }
+    .img2 p,
+    .img1 p{
+        margin-top: -48%;
+        margin-left: 43%;
+    }
+    .newsletter,
+    .hotel,
+    .picture2,
+    .picture1{
+        flex-direction: column;
+    }
+    
+    .img3 p{
+        margin-top: -40%;
+        margin-left: 35%;
+    }
+    .img4 p{
+        margin-top: -40%;
+        margin-left: 28%;
+    }
+    .img5 p{
+        margin-top: -39%;
+        margin-left: 35%;
+    }
+    .img6 p{
+        margin-top: -40%;
+        margin-left: 31%;
+    }
+    .img7 p{
+        margin-top: -40%;
+        margin-left: 31%;
+    }
+    .best-prise,
+    .hotel1{
+        width: 400px;
+        margin-left: -22px;
+    }
+    .hotel2{
+        width: 400px;
+        margin-left: -23px;
+        margin-top: 30px;
+    }
+    .newsletter1{
+        width: 390px;
+        margin-left: -20px;
+        border-radius: 10px;
+    }
+    .rectangle{
+        width: 120%;
+        height: 100vh;
+        margin-left: 0px;
+        background-position: center;
+        margin-top: -60px;
+        
+    }
+    .rectangle .travel{
+        margin-top: 100%;
+        margin-left: 37%;
+    }
+    .footer{
+        width: 120%;
+        margin-left: 6px;
+        margin-top: -30px;
+    }
+    .footer .images3 h2 {
+        padding-left: 60px;
+        margin-left: 25%;
+
+    }
+    .images3 .icon{
+        margin-left: 40%;
+    }
+    .place{
+        margin-left: 80px;
+        flex-direction: column;
+        
+    }
+    .place .place1{
+        width: 350px;
+        height: 300px;
+    }
+    .hill{
+        width: 120%;
+        height: 100vh;
+        background-position: center;
+    }
+    .hill p{
+        margin-top: 90%;
+        margin-right: 0px;
+
+    }
+    
   
 }
 
